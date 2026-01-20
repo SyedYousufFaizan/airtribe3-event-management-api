@@ -1,0 +1,26 @@
+{
+  "name": "evntmangmt",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "./src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "NODE_ENV=test jest --runInBand"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^12.6.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.2.2"
+  }
+}
