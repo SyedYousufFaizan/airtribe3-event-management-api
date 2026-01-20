@@ -53,10 +53,10 @@ The platform supports **secure user authentication**, **event creation and manag
 
 ## Api Endpoints
 
--- POST /register  - register a user
--- POST /login  - login existing user
--- GET /events - get all events
--- POST /events - Add a event (only for the organize, ralong with bearer token)
--- POST /events/:id/resgister - To Register for an event
--- PUT /events/:id - Edit an event (only authorized by the organizer of that particular event)
--- DELETE /events/:id - Delete an event (only authorized by the organizer of that particular event)
+- POST /register  - register a user
+- POST /login  - login existing user
+- GET /events - get all events
+- POST /events - Add a event (only for the organize, ralong with bearer token)
+- POST /events/:id/resgister - To Register for an event
+- PUT /events/:id - Edit an event (only authorized by the organizer of that particular event)
+- DELETE /events/:id - Delete an event (only authorized by the organizer of that particular event)
